@@ -4,10 +4,10 @@ unsigned char local_ip[]= {xxx,xxx,xxx,xxx};   // IP address of WiShield (modify
 unsigned char gateway_ip[]= {xxx,xxx,xxx,xxx};   // router or gateway IP address (modify it)
 unsigned char subnet_mask[]= {255,255,255,0}; // subnet mask for the local network
 //char ssid[] = {"Arduino"};   // max 32 bytes  (modify it)
-char ssid[] = {"xxx"};
+char ssid[] = {"SSIDname"};
 unsigned char security_type = 0;               // 0 - open; 1 - WEP; 2 - WPA; 3 - WPA2   (modify it)
 // WPA/WPA2 passphrase
-const prog_char security_passphrase[] PROGMEM = {"xxx"}; // max 64 characters
+const prog_char security_passphrase[] PROGMEM = {"Wifipassword"}; // max 64 characters
 
 // WEP 128-bit keys
 prog_uchar wep_keys[] PROGMEM = {
@@ -27,7 +27,7 @@ unsigned char security_passphrase_len;
 
 uint8 ip[] = {213,186,33,19}; //IP address of api.pushingbox.com
 char hostName[] = "api.pushingbox.com"; // api.pushingbox.com
-char url[]="/pushingbox?devid=vA91B2703511BE92";
+char url[]="/pushingbox?devid=vA91B3703541BE92";
 
 GETrequest getEverDevice(ip, 80, hostName, url);
 int pirPin = 3;    //the digital pin connected to the PIR sensor's output
