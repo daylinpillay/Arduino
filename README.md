@@ -13,7 +13,8 @@ Forked from PIR Motion Sensor - https://learn.adafruit.com/pir-passive-infrared-
 
 Forked from WiShield 1.0 - https://github.com/asynclabs/WiShield
 
-Added Pushingbox API URL to Motion_Sensor.ino
+Added WiShield code to Motion_Sensor.ino
+Added Pushingbox API URL code to Motion_Sensor.ino
 
 Parts required
 
