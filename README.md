@@ -18,3 +18,6 @@ Parts required
 - WiShield 1.0 (Wi-Fi module)
 - LED
 - Jumping wires
+
+
+Forked from WiShield 1.0 - https://github.com/asynclabs/WiShield
