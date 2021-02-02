@@ -12,8 +12,9 @@ https://www.pushingbox.com/
 Added Pushingbox API URL to Motion_Sensor.ino
 
 Parts required
+
 - Arduino UNO
 - PIR Motion Sensor
-- WiShield (Wi-Fi module)
+- WiShield 1.0 (Wi-Fi module)
 - LED
 - Jumping wires
