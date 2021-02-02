@@ -9,6 +9,8 @@ All this in real time
 
 https://www.pushingbox.com/
 
+Forked from PIR Motion Sensor - https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/using-a-pir-w-arduino
+Forked from WiShield 1.0 - https://github.com/asynclabs/WiShield
 Added Pushingbox API URL to Motion_Sensor.ino
 
 Parts required
@@ -20,4 +22,4 @@ Parts required
 - Jumping wires
 
 
-Forked from WiShield 1.0 - https://github.com/asynclabs/WiShield
+
